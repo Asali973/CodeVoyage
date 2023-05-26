@@ -18,12 +18,12 @@ namespace CodeVoyage.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             {
-            optionsBuilder.UseMySql("server=localhost;user id=root;password=Kuroikage@25;database=CodeVoyageBDD");
+            optionsBuilder.UseMySql("server=localhost;user id=root;password=MMMMM;database=CodeVoyageBDD");
             }
 
         public void InitializeDb()
         {
-           // this.Database.EnsureDeleted();
+           this.Database.EnsureDeleted();
             this.Database.EnsureCreated();
             this.Evenements.AddRange(
                 new Evenement

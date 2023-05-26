@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/aitcheou/Desktop/ISIKA/CodeVoyage/CodeVoyage.csproj": {}
+    "D:\\Users\\Stagiaite\\source\\repos\\gitrepertoire2\\CodeVoyage\\CodeVoyage.csproj": {}
   },
   "projects": {
-    "/Users/aitcheou/Desktop/ISIKA/CodeVoyage/CodeVoyage.csproj": {
+    "D:\\Users\\Stagiaite\\source\\repos\\gitrepertoire2\\CodeVoyage\\CodeVoyage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aitcheou/Desktop/ISIKA/CodeVoyage/CodeVoyage.csproj",
+        "projectUniqueName": "D:\\Users\\Stagiaite\\source\\repos\\gitrepertoire2\\CodeVoyage\\CodeVoyage.csproj",
         "projectName": "CodeVoyage",
-        "projectPath": "/Users/aitcheou/Desktop/ISIKA/CodeVoyage/CodeVoyage.csproj",
-        "packagesPath": "/Users/aitcheou/.nuget/packages/",
-        "outputPath": "/Users/aitcheou/Desktop/ISIKA/CodeVoyage/obj/",
+        "projectPath": "D:\\Users\\Stagiaite\\source\\repos\\gitrepertoire2\\CodeVoyage\\CodeVoyage.csproj",
+        "packagesPath": "C:\\Users\\Stagiaite\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Stagiaite\\source\\repos\\gitrepertoire2\\CodeVoyage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/aitcheou/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Stagiaite\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -72,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
