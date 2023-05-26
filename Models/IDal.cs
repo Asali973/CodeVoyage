@@ -20,6 +20,13 @@ namespace CodeVoyage.Models
              int CreerEvenement(string Nom, DateTime Date, string Localisation, TypeEvenement TypeEvent);
              void ModifierEvenement(int id, string Nom, DateTime Date, string Localisation, TypeEvenement TypeEvent);
              void SupprimerEvenementint (int id);
+
+            //Methodes Services
+
+            List<Service> ObtientTousLesService();
+            int CreerService(string nomService, TypeService TypeService, int Capacite, DateTime Date, double Prix);
+            void ModifierService(int Id, string nomService, TypeService TypeService, int Capacite, DateTime Date, double Prix);
+            void SupprimerService(int id);
         }
     }
    

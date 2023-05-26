@@ -102,9 +102,10 @@ namespace CodeVoyage.Models
                 new Service
                 {
                     Id = 1,
-                    nomService= "Visite touristique",
+                    nomService= "Visite du Corcovado",
                     Capacite= 20,
-                    Date= new DateTime(2023, 10, 21),
+                    DateDeb= new DateTime(2023, 10, 21),
+                    DateFin= new DateTime(2024, 12, 20),
                     TypeService=((TypeService)4),
                     Prix = 10
                 },
@@ -113,18 +114,20 @@ namespace CodeVoyage.Models
                     Id = 2,
                     nomService = "Mini golf",
                     Capacite = 9,
-                    Date = new DateTime(2023, 07, 21),
+                    DateDeb = new DateTime(2023, 07, 01),
+                    DateFin = new DateTime(2023, 09, 03),
                     TypeService = ((TypeService)2),
                     Prix = 12
                 },
                 new Service
                 {
                     Id = 3,
-                    nomService = "Airbnb",
+                    nomService = "Location de limousine à l'heure",
                     Capacite = 2,
-                    Date = new DateTime(2023, 08, 21),
+                    DateDeb = new DateTime(2023, 06, 01),
+                    DateFin = new DateTime(2024, 06, 01),
                     TypeService = ((TypeService)1),
-                    Prix = 140
+                    Prix = 200
                 });;
 
 

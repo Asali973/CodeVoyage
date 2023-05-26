@@ -122,3 +122,5 @@ D:\Users\Stagiaite\source\repos\gitrepertoire2\CodeVoyage\obj\Debug\netcoreapp3.
 D:\Users\Stagiaite\source\repos\gitrepertoire2\CodeVoyage\obj\Debug\netcoreapp3.1\CodeVoyage.dll
 D:\Users\Stagiaite\source\repos\gitrepertoire2\CodeVoyage\obj\Debug\netcoreapp3.1\CodeVoyage.pdb
 D:\Users\Stagiaite\source\repos\gitrepertoire2\CodeVoyage\obj\Debug\netcoreapp3.1\CodeVoyage.genruntimeconfig.cache
+D:\Users\Stagiaite\source\repos\gitrepertoire2\CodeVoyage\obj\Debug\netcoreapp3.1\Razor\Views\Service\CreerService.cshtml.g.cs
+D:\Users\Stagiaite\source\repos\gitrepertoire2\CodeVoyage\obj\Debug\netcoreapp3.1\Razor\Views\Service\ModifierService.cshtml.g.cs

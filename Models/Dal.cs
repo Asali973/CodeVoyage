@@ -106,7 +106,60 @@ namespace CodeVoyage.Models
              }
          }
 
-      
+        // Méthodes Service
+
+
+        public List<Service> ObtientTousLesServices()
+        {
+            return _bddContext.Services.ToList();
+        }
+
+        public int CreerService(string nomService, TypeService TypeService, int Capacite, DateTime DateDeb, DateTime DateFin, double Prix)
+        {
+
+            Service service = new Service() { nomService = nomService, TypeService = TypeService, Capacite = Capacite, DateDeb = DateDeb, DateFin = DateFin, Prix = Prix };
+
+            _bddContext.Services.Add(service);
+            _bddContext.SaveChanges();
+            return service.Id;
+        }
+
+        public void ModifierService(int Id, string nomService, TypeService TypeService, int Capacite, DateTime DateDeb, DateTime DateFin, double Prix)
+        {
+            Service service = _bddContext.Services.Find(Id);
+
+            if (service != null)
+            {
+                service.Id = Id;
+                service.nomService = nomService;
+                service.TypeService = TypeService;
+                service.Capacite = Capacite;                service.DateDeb = DateDeb;                service.DateFin = DateFin;                service.Prix = Prix;
+
+                _bddContext.SaveChanges();
+            }
+
+        }
+        public void ModifierService(Service service)
+        {
+                     
+            
+            _bddContext.Services.Update(service);
+            _bddContext.SaveChanges();
+        }
+
+        public void SupprimerService(int id) // A tester
+        {
+            Service service = _bddContext.Services.Find(id);
+
+
+            if (service != null)
+            {
+
+                _bddContext.Services.Remove(service);
+
+                _bddContext.SaveChanges();
+            }
+        }
 
         public void Dispose()
         {
