@@ -1034,11 +1034,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aitcheou/Desktop/ISIKA/CodeVoyage/CodeVoyage.csproj",
+      "projectUniqueName": "/Users/aitcheou/Desktop/ISIKA/Projet2/CodeVoyage/CodeVoyage.csproj",
       "projectName": "CodeVoyage",
-      "projectPath": "/Users/aitcheou/Desktop/ISIKA/CodeVoyage/CodeVoyage.csproj",
+      "projectPath": "/Users/aitcheou/Desktop/ISIKA/Projet2/CodeVoyage/CodeVoyage.csproj",
       "packagesPath": "/Users/aitcheou/.nuget/packages/",
-      "outputPath": "/Users/aitcheou/Desktop/ISIKA/CodeVoyage/obj/",
+      "outputPath": "/Users/aitcheou/Desktop/ISIKA/Projet2/CodeVoyage/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/aitcheou/.nuget/NuGet/NuGet.Config"
