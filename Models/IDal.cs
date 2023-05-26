@@ -20,6 +20,21 @@ namespace CodeVoyage.Models
              int CreerEvenement(string Nom, DateTime Date, string Localisation, TypeEvenement TypeEvent);
              void ModifierEvenement(int id, string Nom, DateTime Date, string Localisation, TypeEvenement TypeEvent);
              void SupprimerEvenementint (int id);
+
+
+            //Methodes Itineraire
+            List<Itineraire> ObtientTousLesItineraires();
+
+            int CreerItineraire(string LieuDepart, String Destination, double Prix, MoyenDeTransport Transport, int NombreVoyageur, DateTime DateDepart, DateTime DateArrivee);
+            void ModifierItineraire(int Id ,string LieuDepart, String Destination, double Prix, MoyenDeTransport Transport, int NombreVoyageur, DateTime DateDepart, DateTime DateArrivee); 
+            void SupprimerItineraire(int Id);
+
+
+
+
+
+
+
         }
     }
    

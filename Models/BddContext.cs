@@ -18,12 +18,12 @@ namespace CodeVoyage.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             {
-            optionsBuilder.UseMySql("server=localhost;user id=root;password=Kuroikage@25;database=CodeVoyageBDD");
+            optionsBuilder.UseMySql("server=localhost;user id=root;password=rrrrr;database=CodeVoyageBDD");
             }
 
         public void InitializeDb()
         {
-           // this.Database.EnsureDeleted();
+            this.Database.EnsureDeleted();
             this.Database.EnsureCreated();
             this.Evenements.AddRange(
                 new Evenement
@@ -96,6 +96,19 @@ namespace CodeVoyage.Models
                     NombreVoyageur = 30,
                     Transport = ((MoyenDeTransport)0),
                     Prix = 560
+                },
+
+                 new Itineraire
+                 {
+                     Id = 4,
+                     DateDepart = new DateTime(2023, 09, 15),
+                     DateArrivee = new DateTime(2023, 11, 25),
+                     LieuDepart = "Test",
+                     Destination = "Toronto",
+                     NombreVoyageur = 50,
+                     Transport = ((MoyenDeTransport)0),
+                     Prix = 575
+                 
                 });
 
             this.Services.AddRange(
