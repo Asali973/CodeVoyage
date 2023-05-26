@@ -1,0 +1,59 @@
+﻿<Properties StartupConfiguration="{32BD9EFC-39F0-4F27-8ACE-9D35033FA322}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Dal.cs">
+    <Files>
+      <File FileName="Startup.cs" Line="51" Column="10" />
+      <File FileName="Models/Itineraire.cs" Line="9" Column="41" />
+      <File FileName="Models/Evenement.cs" Line="15" Column="11" />
+      <File FileName="Models/Membre.cs" />
+      <File FileName="Models/Partenaire.cs" />
+      <File FileName="Models/Role.cs" />
+      <File FileName="Models/OffreVoyage.cs" Line="9" Column="45" />
+      <File FileName="Models/Statut.cs" />
+      <File FileName="Models/TypeService.cs" Line="1" Column="1" />
+      <File FileName="Models/Service.cs" Line="11" Column="41" />
+      <File FileName="Models/TypeEvenement.cs" />
+      <File FileName="Models/Theme.cs" />
+      <File FileName="Models/MoyenDeTransport.cs" Line="1" Column="1" />
+      <File FileName="Models/BDDContext.cs" Line="127" Column="31" />
+      <File FileName="Models/Reservation.cs" Line="12" Column="1" />
+      <File FileName="Models/IDal.cs" />
+      <File FileName="Models/Dal.cs" Line="56" Column="39" />
+      <File FileName="Controllers/EvenementController.cs" />
+      <File FileName="Views/Shared/Error.cshtml" />
+      <File FileName="Views/Shared/_LayoutDuSite.cshtml" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Controllers/HomeController.cs" />
+      <File FileName="Views/Evenement/CreerEvenement.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CodeVoyage" expanded="True">
+            <Node name="CodeVoyage" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Dal.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Evenement" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="Css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CodeVoyage PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TestCodeVoyageBDD FirstBuild="True" />
+</Properties>
