@@ -92,6 +92,7 @@ namespace CodeVoyage.Models
       
         }
 
+<<<<<<< HEAD
         public void SupprimerEvenement(int id) // A tester
          {
              Evenement evenement = _bddContext.Evenements.Find(id);
@@ -160,6 +161,10 @@ namespace CodeVoyage.Models
                 _bddContext.SaveChanges();
             }
         }
+=======
+        //Fin Méthodes Evenements
+
+>>>>>>> f04a4c7b0412c7c5eef793eea701372a99a7dcf0
 
         public void Dispose()
         {

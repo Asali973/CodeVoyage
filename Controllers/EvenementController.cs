@@ -32,6 +32,7 @@ namespace CodeVoyage.Controllers
             
             
         }
+<<<<<<< HEAD
 
         
         public IActionResult SupprimerEvenement(int id)
@@ -45,5 +46,7 @@ namespace CodeVoyage.Controllers
             }
         }
     
+=======
+>>>>>>> f04a4c7b0412c7c5eef793eea701372a99a7dcf0
     }
 }

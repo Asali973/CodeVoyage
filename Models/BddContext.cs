@@ -23,7 +23,11 @@ namespace CodeVoyage.Models
 
         public void InitializeDb()
         {
+<<<<<<< HEAD
            this.Database.EnsureDeleted();
+=======
+            this.Database.EnsureDeleted();
+>>>>>>> f04a4c7b0412c7c5eef793eea701372a99a7dcf0
             this.Database.EnsureCreated();
             this.Evenements.AddRange(
                 new Evenement
@@ -102,10 +106,16 @@ namespace CodeVoyage.Models
                 new Service
                 {
                     Id = 1,
+<<<<<<< HEAD
                     nomService= "Visite du Corcovado",
                     Capacite= 20,
                     DateDeb= new DateTime(2023, 10, 21),
                     DateFin= new DateTime(2024, 12, 20),
+=======
+                    nomService= "Visite touristique",
+                    Capacite= 20,
+                    Date= new DateTime(2023, 10, 21),
+>>>>>>> f04a4c7b0412c7c5eef793eea701372a99a7dcf0
                     TypeService=((TypeService)4),
                     Prix = 10
                 },
@@ -114,20 +124,32 @@ namespace CodeVoyage.Models
                     Id = 2,
                     nomService = "Mini golf",
                     Capacite = 9,
+<<<<<<< HEAD
                     DateDeb = new DateTime(2023, 07, 01),
                     DateFin = new DateTime(2023, 09, 03),
+=======
+                    Date = new DateTime(2023, 07, 21),
+>>>>>>> f04a4c7b0412c7c5eef793eea701372a99a7dcf0
                     TypeService = ((TypeService)2),
                     Prix = 12
                 },
                 new Service
                 {
                     Id = 3,
+<<<<<<< HEAD
                     nomService = "Location de limousine à l'heure",
                     Capacite = 2,
                     DateDeb = new DateTime(2023, 06, 01),
                     DateFin = new DateTime(2024, 06, 01),
                     TypeService = ((TypeService)1),
                     Prix = 200
+=======
+                    nomService = "Airbnb",
+                    Capacite = 2,
+                    Date = new DateTime(2023, 08, 21),
+                    TypeService = ((TypeService)1),
+                    Prix = 140
+>>>>>>> f04a4c7b0412c7c5eef793eea701372a99a7dcf0
                 });;
 
 
