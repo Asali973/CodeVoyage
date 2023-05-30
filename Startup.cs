@@ -27,9 +27,15 @@ namespace CodeVoyage
             {
                 app.UseDeveloperExceptionPage();
             }
+
             using (Dal dal = new Dal())
             {
                 dal.DeleteCreateDatabase();
+            }
+
+            using (BddContext ctx = new BddContext())
+            {
+                ctx.InitializeDb();
             }
 
             app.UseStaticFiles();
